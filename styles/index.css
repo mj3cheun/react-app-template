@@ -1,5 +1,13 @@
+/* Load spinner styles */
+@import 'spinkit/css/spinners/9-cube-grid.css';
+
+/* Load bootstrap styles */
+@import 'bootstrap/dist/css/bootstrap.css';
+
 /* Load variables */
 @import './css/variables.css';
 @import './css/general.css';
 
 /* Load all custom scss files */
+@import './css/components/Spinner.css';
+@import './css/components/ErrorMessage.css';

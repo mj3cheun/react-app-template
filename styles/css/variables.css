@@ -1,8 +1,9 @@
 :root {
 	/* Declare Colours */
+	--red: #FF0000;
+	--orange: #FF6600;
 	--white: #FFFFFF;
 	--black: #000000;
-	--lightGrey: #EEE;
 
 	/* Bootstrap breakpoints */
 	--screen-xs-min: 480px;
@@ -19,7 +20,4 @@
 	@custom-media --screen-xs (max-width: 767px);
 	@custom-media --screen-sm (max-width: 991px);
 	@custom-media --screen-md (max-width: 1199px);
-
-
-	/* Declare global dimensions */
 }
