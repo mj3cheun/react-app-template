@@ -13,7 +13,9 @@ const mountElement = document.getElementById('container');
 export class App extends React.Component {
 	render() {
 		return (
-			<HashRouter className="App"/>
+			<HashRouter className="App">
+				<Route component={Index}/>
+			</HashRouter>
 		);
 	}
 }
